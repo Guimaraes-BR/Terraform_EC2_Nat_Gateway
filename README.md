@@ -10,6 +10,8 @@ Para verificar se a execução ocorreu normalmente, ao conectar na EC2 Nat Gatew
 
 Premissas
 
+No arquivo "variables.tf", insira o id e secret do usuário criado no IAM para acesso pelo Terraform
+
 Será necessário criar duas key pairs manuamente pelo portal nas regiões "us-west-2" #oregon com o nome "terraform_key_pair_development" e "us-east-2" #ohio, com o nome "terraform_key_pair_production" e fazer o download das mesmas.
 
 Com essa particularidade ao criar e destruir o ambiente, a key pair continuará nas duas regiões.
