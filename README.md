@@ -20,9 +20,11 @@ Nos arquivos "production.tfvars" e development.tfvars, estão as variavéis para
 
 Por exemplo,para executar como development, o comando será:
 
-terraform plan --var-file=development.tfvars
-terraform apply --var-file=development.tfvars
+terraform plan --var-file=development.tfvars |
+terraform apply --var-file=development.tfvars |
 terraform destroy --var-file=development.tfvars
+
+Para executar em outra região, sustitua o development por production.
 
 No final da execução, como outputs, será exibido o IP público, o ip privado e outras informações.
 
