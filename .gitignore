@@ -11,5 +11,4 @@ terraform
 *.backup
 *.info
 *.bkp
-*.drawio
 *.html
