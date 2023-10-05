@@ -5,13 +5,13 @@ variable "region" {
 }
 
 variable "access_key" {
-  default     = "AKIAZTE4AMOVW2MKBSFI"
+  default     = "xxxxxxxxxxxxxxxx" #Inserir o ID AWS
   type        = string
   description = "access_key"
 }
 
 variable "secret_key" {
-  default     = "RlJexuNTcPqPudUleejpkOY2azuSukpjpXUae7x5"
+  default     = "xxxxxxxxxxxxx"  #Inserir o secret aws
   type        = string
   description = "secret_key"
 }
