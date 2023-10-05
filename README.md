@@ -26,3 +26,17 @@ terraform destroy --var-file=development.tfvars
 
 No final da execução, como outputs, será exibido o IP público, o ip privado e outras informações.
 
+Diagrama
+
+![Diagrama EC2 Nat Gateway](https://github.com/Guimaraes-BR/Terraform_EC2_Nat_Gateway/assets/54118947/97122a22-d823-4ec2-b65c-39f893f08b81)
+
+
+
+
+
+
+
+
+
+
+
