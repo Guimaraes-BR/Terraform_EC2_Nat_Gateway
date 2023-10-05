@@ -13,3 +13,5 @@ terraform
 *.bkp
 *.html
 variables - Copia.tf
+*.drawio
+.gitignore
